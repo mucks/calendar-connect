@@ -1,0 +1,11 @@
+[package]
+name = "calendar-connect"
+version = "0.1.0"
+authors = ["shnaky <mail@shnaky.com>"]
+edition = "2018"
+
+[dependencies]
+google-calendar3 = "*"
+yup-oauth2 = "^1.0"
+hyper = "^0.10"
+hyper-rustls = "^0.6"
